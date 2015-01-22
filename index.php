@@ -1,4 +1,5 @@
 <?php
+
 	require_once 'php/connect.php';
 	$conn = dbConnect();
 ?>
@@ -9,9 +10,14 @@
 		<title>NBA Player Database</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/main.css">
+        <link rel="shortcut icon" href="http://www.iconarchive.com/download/i50913/hopstarter/3d-cartoon-vol3/NBA-Live.ico">
 	</head>
 	<body>
-		<h1>Welcome to the NBA Player Database</h1>
+		<h1>
+            <img src="http://upload.wikimedia.org/wikipedia/en/thumb/3/37/Jumpman_logo.svg/1024px-Jumpman_logo.svg.png" alt="Flightman" width="42" height="42">
+            Welcome to the NBA Player Database
+            <img src="http://upload.wikimedia.org/wikipedia/en/thumb/3/37/Jumpman_logo.svg/1024px-Jumpman_logo.svg.png" alt="Jumpers" width="42" height="42">
+        </h1>
 		<div class="mainContent">
 			<form class="form-horizontal" role="form" method="get">
 				<div class="form-group">
